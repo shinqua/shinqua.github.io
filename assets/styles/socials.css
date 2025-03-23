@@ -1,8 +1,8 @@
 #socials {
-  z-index: 9;
+  z-index: 10;
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: 1em;
   gap: var(--size-socials);
   padding: var(--size-socials);
 }
