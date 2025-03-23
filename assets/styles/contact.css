@@ -1,6 +1,13 @@
 #contact {
   z-index: 9;
+  font-size: 11px;
+  color: rgb(119, 119, 119);
   margin-left: auto;
   margin-right: auto;
   padding: var(--size-contact);
+}
+
+#contact a {
+  font-size: 11px;
+  color: rgb(119, 119, 119);
 }
