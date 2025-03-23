@@ -1,0 +1,18 @@
+#socials {
+  z-index: 9;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  gap: var(--size-socials);
+  padding: var(--size-socials);
+}
+
+#socials img {
+  width: var(--size-socials);
+}
+
+@media (max-width: 700px) {
+  :root {
+    --size-socials: 2em;
+  }
+}

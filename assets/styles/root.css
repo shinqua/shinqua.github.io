@@ -1,0 +1,69 @@
+:root {
+  /* Your Truism */
+  --color-bg-0: #000;
+
+  --color-fg-0: #eee;
+  --color-fg-1: #bbb;
+
+  --radius: 10px;
+  --top-bottom-padding: 3em;
+
+  --title-image-size: 42em;
+  --title-image-size2: 30em;
+
+  --characters-margin-top: -10em;
+  --characters-margin-bottom: -12em;
+
+  --availability-label-size: 7em;
+  --availability-image-size: 15em;
+
+  --size-socials: 3em;
+  --size-contact: 3em;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-0);
+  color: var(--color-fg-0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: var(--color-fg-0);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-fg-1);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}

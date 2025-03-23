@@ -1,0 +1,82 @@
+#your-truism {
+}
+
+#your-truism-title {
+  padding-top: var(--top-bottom-padding);
+  width: var(--title-image-size);
+  pointer-events: none;
+  z-index: 3;
+}
+
+#your-truism-characters {
+  z-index: 1;
+  max-height: 80vh;
+  margin-top: var(--characters-margin-top);
+  margin-bottom: var(--characters-margin-bottom);
+  pointer-events: none;
+}
+
+#your-truism-availability {
+  padding-bottom: var(--top-bottom-padding);
+  z-index: 3;
+  display: flex;
+}
+
+#your-truism-availability-label {
+  pointer-events: none;
+  height: var(--availability-label-size);
+}
+
+#your-truism-availability-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#your-truism-availability-links img {
+  max-width: 25vw;
+  width: var(--availability-image-size);
+  cursor: pointer;
+}
+
+/* Height < Width */
+@media (max-aspect-ratio: 1.1) {
+  #your-truism-availability-links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Height > Width */
+@media (max-aspect-ratio: 1) {
+  :root {
+    --characters-margin-top: -10em;
+    --characters-margin-bottom: -12em;
+  }
+
+  #your-truism-title {
+    min-height: unset;
+    height: unset;
+    max-width: 100vw;
+  }
+
+  #your-truism-characters {
+    min-height: unset;
+    height: unset;
+    max-width: 100vw;
+  }
+
+  #your-truism-availability-label {
+    min-height: unset;
+    height: unset;
+    max-width: 70vw;
+  }
+}
+
+/* Height >> Width */
+@media (max-aspect-ratio: 0.75) {
+  :root {
+    --characters-margin-top: -4em;
+    --characters-margin-bottom: -4em;
+  }
+}

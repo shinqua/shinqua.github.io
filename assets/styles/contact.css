@@ -1,0 +1,7 @@
+#contact {
+  z-index: 9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: var(--size-contact);
+}
