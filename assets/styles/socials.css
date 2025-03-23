@@ -2,7 +2,7 @@
   z-index: 10;
   position: fixed;
   right: 0;
-  bottom: 1em;
+  bottom: 1.5em;
   gap: var(--size-socials);
   padding: var(--size-socials);
 }
