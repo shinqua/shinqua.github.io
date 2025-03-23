@@ -33,6 +33,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  margin-top: 1%;
 }
 
 #your-truism-availability-links img {
