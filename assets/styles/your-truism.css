@@ -18,6 +18,7 @@
 
 #your-truism-availability {
   padding-bottom: var(--top-bottom-padding);
+  margin-top: 2em;
   z-index: 3;
   display: flex;
 }
