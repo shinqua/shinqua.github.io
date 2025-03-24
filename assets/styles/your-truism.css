@@ -40,6 +40,11 @@
   max-width: 25vw;
   width: var(--availability-image-size);
   cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+#your-truism-availability-links img:hover {
+  transform: scale(1.05);
 }
 
 /* Height < Width */
